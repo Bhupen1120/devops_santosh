@@ -1,1 +1,2 @@
-# devops
+# devops class
+learning git
