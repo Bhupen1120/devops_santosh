@@ -41,7 +41,6 @@ git branch -d <branch name> : to delte the branch from local repository
 
 Note: the difference between git fetch and git pull are, git fetch will update the references in local repo with remote repo (example: if any new branch created, or any branch is updated with new commits)
 where as git pull will update the current branch content/changes
-<<<<<<< HEAD
 
 Create merge conflict scenario:
 
@@ -60,5 +59,3 @@ Create merge conflict scenario:
 fix: git pull origin master in to your task-2 branch
 
 delete << and >> === lines
-=======
->>>>>>> 3ec952a1c7500696a94cfd219fe3717d488ecc92
