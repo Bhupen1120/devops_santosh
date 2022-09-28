@@ -34,3 +34,8 @@ git status: to check the current status of the files in repo (like, untracked, a
 git log: to view the commit information
 
 git push --set-upstream origin <branch name>
+
+git branch -d <branch name> : to delte the branch from local repository
+
+Note: the difference between git fetch and git pull are, git fetch will update the references in local repo with remote repo (example: if any new branch created, or any branch is updated with new commits)
+where as git pull will update the current branch content/changes
