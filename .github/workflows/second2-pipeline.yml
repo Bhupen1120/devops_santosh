@@ -1,0 +1,12 @@
+name: my second pipeline
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo statement
+        run: echo "hello world2"
